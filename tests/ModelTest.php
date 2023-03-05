@@ -1,10 +1,10 @@
 <?php
 
-namespace HarryGulliford\Firebird\Tests;
+namespace Aycolus\Firebird\Tests;
 
-use HarryGulliford\Firebird\Tests\Support\Factories\UserFactory;
-use HarryGulliford\Firebird\Tests\Support\MigrateDatabase;
-use HarryGulliford\Firebird\Tests\Support\Models\User;
+use Aycolus\Firebird\Tests\Support\Factories\UserFactory;
+use Aycolus\Firebird\Tests\Support\MigrateDatabase;
+use Aycolus\Firebird\Tests\Support\Models\User;
 
 class ModelTest extends TestCase
 {

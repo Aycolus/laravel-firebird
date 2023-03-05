@@ -1,8 +1,8 @@
 <?php
 
-namespace HarryGulliford\Firebird\Tests;
+namespace Aycolus\Firebird\Tests;
 
-use HarryGulliford\Firebird\FirebirdServiceProvider;
+use Aycolus\Firebird\FirebirdServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\DB;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;

@@ -1,8 +1,8 @@
 <?php
 
-namespace HarryGulliford\Firebird\Tests;
+namespace Aycolus\Firebird\Tests;
 
-use HarryGulliford\Firebird\Tests\Support\MigrateDatabase;
+use Aycolus\Firebird\Tests\Support\MigrateDatabase;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;

@@ -1,6 +1,6 @@
 <?php
 
-namespace HarryGulliford\Firebird\Query;
+namespace Aycolus\Firebird\Query;
 
 use Illuminate\Database\Query\Builder as QueryBuilder;
 

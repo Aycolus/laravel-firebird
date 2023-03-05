@@ -1,13 +1,13 @@
 {
-    "name": "harrygulliford/laravel-firebird",
+    "name": "aycolus/laravel-firebird",
     "description": "Firebird database driver for the Laravel Framework",
     "license": "MIT",
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/support": "^8.65|^9.0",
-        "illuminate/container": "^8.65|^9.0",
-        "illuminate/database": "^8.65|^9.0",
-        "illuminate/events": "^8.65|^9.0"
+        "illuminate/support": "^8.65|^9.0|^10.0",
+        "illuminate/container": "^8.65|^9.0|^10.0",
+        "illuminate/database": "^8.65|^9.0|^10.0",
+        "illuminate/events": "^8.65|^9.0|^10.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.4",
@@ -22,18 +22,18 @@
     },
     "autoload": {
         "psr-4": {
-            "HarryGulliford\\Firebird\\": "src/"
+            "Aycolus\\Firebird\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HarryGulliford\\Firebird\\Tests\\": "tests/"
+            "Aycolus\\Firebird\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HarryGulliford\\Firebird\\FirebirdServiceProvider"
+                "Aycolus\\Firebird\\FirebirdServiceProvider"
             ]
         }
     }
