@@ -5,7 +5,7 @@ namespace Aycolus\Firebird;
 use Aycolus\Firebird\Query\Builder as FirebirdQueryBuilder;
 use Aycolus\Firebird\Query\Grammars\FirebirdGrammar as FirebirdQueryGrammar;
 use Aycolus\Firebird\Query\Processors\FirebirdProcessor as FirebirdQueryProcessor;
-use Aycolus\Firebird\Schema\Builder as FirebirdSchemaBuilder;
+use Aycolus\Firebird\Schema\FirebirdBuilder as FirebirdSchemaBuilder;
 use Aycolus\Firebird\Schema\Grammars\FirebirdGrammar as FirebirdSchemaGrammar;
 use Illuminate\Database\Connection as DatabaseConnection;
 
@@ -34,7 +34,7 @@ class FirebirdConnection extends DatabaseConnection
     /**
      * Get a schema builder instance for this connection.
      *
-     * @return \Firebird\Schema\Builder
+     * @return \Firebird\Schema\FirebirdBuilder
      */
     public function getSchemaBuilder()
     {
