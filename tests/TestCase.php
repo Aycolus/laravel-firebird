@@ -14,7 +14,7 @@ class TestCase extends OrchestraTestCase
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(function ($class) {
-            return 'HarryGulliford\\Firebird\\Tests\\Support\\Factories\\'.class_basename($class).'Factory';
+            return 'Aycolus\\Firebird\\Tests\\Support\\Factories\\'.class_basename($class).'Factory';
         });
     }
 
@@ -43,7 +43,7 @@ class TestCase extends OrchestraTestCase
             'driver' => 'firebird',
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3050'),
-            'database' => env('DB_DATABASE', '/firebird/data/database.fdb'),
+            'database' => env('DB_DATABASE', 'C:\firebird\data\WINHOTEL_TEST.FDB'),
             'username' => env('DB_USERNAME', 'sysdba'),
             'password' => env('DB_PASSWORD', 'masterkey'),
             'charset' => env('DB_CHARSET', 'UTF8'),
